@@ -1,0 +1,20 @@
+name: "VeraCityPV Consultants"
+output_dir: "."
+
+navbar:
+  title: "VeracityPV"
+  left:
+    - text: "About"
+      href: "#about"
+    - text: "Who We Support"
+      href: "#who-we-support"
+    - text: "What We Do"
+      href: "#what-we-do"
+    - text: "Contact Us"
+      href: "#contact-us"
+
+output:
+  html_document:
+    theme: yeti
+    css: styles.css
+
