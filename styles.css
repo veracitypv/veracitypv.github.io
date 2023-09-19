@@ -1,18 +1,83 @@
-#privacy-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    border: 1px solid #ccc;
-    padding: 10px;
-    width: 300px;
-    z-index: 1;
-    max-height: 400px;
-    overflow-y: scroll;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+/* Gradient background for the entire page */
+body {
+    background: linear-gradient(45deg, #f5f7fa, #c3cfe2);
+    font-family: 'Arial', sans-serif;
 }
 
-#privacy-hover:hover + #privacy-content,
-#privacy-content:hover {
+/* Card design */
+.card {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0 40px 0;  /* Increase bottom margin */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    clear: both;  /* Clear floats */
+}
+
+/* Card Hover Effect */
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px); /* This line moves the card up a bit */
+}
+
+/* Privacy hover effect */
+#privacy-hover:hover + #privacy-content {
     display: block;
+}
+#privacy-content {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Hyperlinks */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* List styles */
+ul, ol {
+    margin-left: 20px;
+}
+
+/* Move navbar items to the right */
+.navbar-nav {
+    float: right !important;
+}
+
+/* Style for the introduction section */
+.intro-section h1 {
+  text-align: center;
+  color: #333;
+}
+
+.intro-section h2 {
+  text-align: center;
+  color: #666;
+}
+
+.intro-section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Clearfix utility */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 

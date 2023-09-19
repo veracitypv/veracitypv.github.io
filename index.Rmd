@@ -5,32 +5,46 @@ output:
   html_document:
     theme: yeti
     css: styles.css
+    includes:
+      in_header: header.html
 ---
 
-# Welcome to VeracityPV Consulting
+<!-- Introduction Section -->
+<div class="card intro-section">
+  <h1>Welcome to VeracityPV Consulting</h1>
+  <hr>
+  <img src="pics/intro_image.png" alt="Introduction Image" style="width: 100%; height: auto;">
+  <h2>Pharmacovigilance Guaranteed!</h2>
+  <p>Providing interim pharmacovigilance services to your organization: Your Safety/PV Department as you grow.</p>
+</div>
 
-_Pharmacovigilance Guaranteed!_
+<!-- About Section -->
+<div class="card anchor-offset" id="about"> <!-- Added anchor-offset class -->
+<a></a>About
 
-Providing interim pharmacovigilance services to your organization: Your Safety/PV Department as you grow.
+<img src="pics/vera_headshot.png" alt="Vera Headshot" style="float: left; margin-right: 15px; width: 150px; height: auto;">
+Vera has over 20 years experience in pharmacovigilance and drug safety. She has worked in large multinational companies and start-up biotech companies with “IND to NDA” experience across most therapeutic areas and modalities. Her expertise ranges from pharmacovigilance operations to signal detection. She has created systems and processes to ensure inspection readiness and regulatory compliance. Her motto is: “ensuring drug safety is not a choice but a philosophy“.
 
----
+<div style="clear: both;"></div>
+</div>
 
-## <a id="about"></a>About
-Vera has over 20 years experience in pharmacovigilance and drug safety. She has worked in large multinational companies and start-up biotech companies with “IND to NDA” experience across most therapeutic areas and modalities. Her expertise ranges from pharmacovigilance operations to signal detection. She has created systems and processes to ensure inspection readiness and regulatory compliance. Her motto is: _“ensuring drug safety is not a choice but a philosophy“_.
+<!-- Who We Support Section -->
+<div class="card anchor-offset" id="who-we-support"> <!-- Added anchor-offset class -->
 
----
+## Who We Support
 
-## <a id="who-we-support"></a>Who We Support
-
-- Start-up companies that require PV support to be compliant 
+- Start-up companies that require PV support to be compliant
 - Your Safety/PV Department as you grow
 - Clinical stage/premarketing stage companies
 - Supporting with PV needs and establishing systems, processes for inspection readiness
 - Established companies with marketed products: Providing ad-hoc resources and support
 
----
+</div>
 
-## <a id="what-we-do"></a>What We Do
+<!-- What We Do Section -->
+<div class="card anchor-offset" id="what-we-do"> <!-- Added anchor-offset class -->
+
+## What We Do
 
 1. **Safety Surveillance**
 2. **Operations**
@@ -47,7 +61,10 @@ Vera has over 20 years experience in pharmacovigilance and drug safety. She has 
     - Vendor Management
     - Systems & Databases
 
----
+</div>
+
+<!-- How We Do It Section -->
+<div class="card">
 
 ## How We Do It?
 
@@ -55,9 +72,12 @@ Vera has over 20 years experience in pharmacovigilance and drug safety. She has 
 2. Provide recommendations (build, insource, outsource).
 3. Establish systems, process and teams.
 
----
+</div>
 
-## <a id="contact-us"></a>Contact Us
+<!-- Contact Us Section -->
+<div class="card anchor-offset" id="contact-us"> <!-- Added anchor-offset class -->
+
+## Contact Us
 
 **Veracity PV Consulting**  
 5776 Lindero Canyon Road, Suite D-126  
@@ -66,16 +86,17 @@ Email: [veracitypv@gmail.com](mailto:veracitypv@gmail.com)
 Website: [www.veracitypv.com](http://www.veracitypv.com)  
 Phone: [+1-805-338-9001](tel:+18053389001)
 
----
+</div>
+
+<!-- Privacy Section -->
+<div class="card">
 
 ## Privacy Notice
-
-Last updated: 01 September 2023
 
 <span id="privacy-hover">Click here to read our Privacy Notice</span>
 
 <div id="privacy-content">
-    
+  
 **Privacy Notice**  
 Last updated: 01 September 2023
 
@@ -85,3 +106,4 @@ Thank you for visiting VeracityPV.com ("we," "us," "our"). This Privacy Notice e
 
 </div>
 
+</div>

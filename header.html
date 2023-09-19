@@ -1,0 +1,25 @@
+<!-- header.html -->
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.navbar-header').remove(); // Remove the existing title
+    $('.navbar').prepend('<div class="navbar-header" style="display: inline-block;"><img src="pics/veracitypv_logo.png" style="height: 50px;"></div>');
+  });
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.navbar-nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      let hash = this.getAttribute('href');
+      let target = document.querySelector(hash);
+      if (target) {
+        e.preventDefault();
+        window.scrollTo({
+          top: target.offsetTop - 70,  // 70px is the height of your navbar
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+});
+</script>
