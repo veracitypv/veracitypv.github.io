@@ -9,10 +9,11 @@ body {
     box-sizing: border-box;
     background-color: #ffffff;
     padding: 20px;
-    margin: 20px 0 40px 0;  /* Increase bottom margin */
+    margin: 20px 0 40px 0;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
+    position: relative;  /* Added for absolute positioning of label */
     clear: both;  /* Clear floats */
 }
 
@@ -81,3 +82,70 @@ ul, ol {
   clear: both;
 }
 
+/* Flex container */
+.how-we-do-it-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* How We Do It label */
+.how-we-do-it-label {
+  /* position: absolute; Removed */
+  /* top: 50%; Removed */
+  /* left: 50%; Removed */
+  /* transform: translate(-50%, -50%); Removed */
+  /* z-index: 1; Removed */
+  font-size: 24px;
+  font-weight: bold;
+  /* background-color: rgba(255, 255, 255, 0.8); Removed */
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center; /* New addition for centering the text */
+}
+
+/* Individual step card */
+.how-we-do-it-card {
+  position: relative;
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  z-index: 0;  /* Ensures the cards are below the label */
+}
+
+.how-we-do-it-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+}
+
+/* Styling for step text */
+.step-text {
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Step numbers */
+.step-number {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Background colors */
+#step-1 {
+  background-color: #E6F7FF;
+}
+
+#step-2 {
+  background-color: #FFE6CC;
+}
+
+#step-3 {
+  background-color: #CCFFCC;
+}

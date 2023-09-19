@@ -64,14 +64,23 @@ Vera has over 20 years experience in pharmacovigilance and drug safety. She has 
 </div>
 
 <!-- How We Do It Section -->
-<div class="card">
+<div class="card how-we-do-it-container">
+  <div class="how-we-do-it-label">How We Do It?</div>  <!-- New label -->
+  <div class="how-we-do-it-card" id="step-1"> <!-- Added id -->
+    <div class="step-number">1</div> <!-- Step number -->
+    Contact us for an initial consultation to understand your needs.
+  </div>
 
-## How We Do It?
+  <div class="how-we-do-it-card" id="step-2"> <!-- Added id -->
+    <div class="step-number">2</div> <!-- Step number -->
+    Provide recommendations (build, insource, outsource).
+  </div>
 
-1. Contact us for an initial consultation to understand your needs.
-2. Provide recommendations (build, insource, outsource).
-3. Establish systems, process and teams.
-
+  <div class="how-we-do-it-card" id="step-3"> <!-- Added id -->
+    <div class="step-number">3</div> <!-- Step number -->
+    Establish systems, process and teams.
+  </div>
+  </div>
 </div>
 
 <!-- Contact Us Section -->
