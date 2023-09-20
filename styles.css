@@ -4,6 +4,15 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
+/* New Section Header class */
+.section-header {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
 /* Card design */
 .card {
     box-sizing: border-box;
