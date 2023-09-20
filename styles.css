@@ -149,3 +149,69 @@ ul, ol {
 #step-3 {
   background-color: #CCFFCC;
 }
+
+/* Grid container for "What Vera Does" cards */
+.what-vera-does-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Styles specific to the "What Vera Does" cards */
+.what-vera-does-card {
+  display: flex;
+  flex-direction: row; /* Setting the direction to row */
+  align-items: flex-start;
+  margin-bottom: 20px;
+  padding: 15px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Adding card-content class to better manage the layout */
+.card-content {
+  flex-grow: 1;
+  margin-left: 50px; /* Make room for the step number */
+}
+
+.step-number {
+  font-size: 1.5rem;
+  margin-right: 15px;
+  position: absolute;  /* Keeping it absolute, so it stays at the top left */
+  top: 10px;
+  left: 10px;
+}
+
+
+#safety-science {
+  background-color: #f7e6ff;
+}
+
+#operations {
+  background-color: #e6ffcc;
+}
+
+#document-management {
+  background-color: #ffe0b3;
+}
+
+#reporting {
+  background-color: #c4e17f;
+}
+
+#committees-governance {
+  background-color: #e9d460;
+}
+
+#sops-readiness {
+  background-color: #f39c12;
+}
+
+#vendor-management {
+  background-color: #d2527f;
+}
+
+#databases {
+  background-color: #2c3e50;
+}
+
