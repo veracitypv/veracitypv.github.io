@@ -34,13 +34,13 @@ Vera has over 20 years experience in pharmacovigilance and drug safety. She has 
 <div class="how-we-do-it-label">What Vera Does</div>  <!-- Changed class to how-we-do-it-label -->
 <!-- Safety Science Card -->
 <div class="how-we-do-it-card" id="safety-science"> <!-- Changed class to how-we-do-it-card -->
-<div class="step-number">1</div> <!-- Step number -->
+
 <h3>Safety Science</h3>
 Signal detection, Data analysis, Communications to stakeholders, Review and reporting.
 </div>
 <!-- Operations Card -->
 <div class="how-we-do-it-card" id="operations"> <!-- Changed class to how-we-do-it-card -->
-<div class="step-number">2</div> <!-- Step number -->
+
 <h3>Operations</h3>
 SOPs and Inspection Readiness, Governance, Communication, etc.
 </div>
@@ -48,42 +48,42 @@ SOPs and Inspection Readiness, Governance, Communication, etc.
 
 <!-- Document Management Card -->
 <div class="how-we-do-it-card" id="document-management">
-<div class="step-number">3</div> <!-- Step number -->
+
 <h3>Document Management</h3>
 Updating relevant documents as needed (e.g., ICF, IB, DIL, Label), Creation and review of Critical Safety Documents.
 </div>
 
 <!-- Reporting Card -->
 <div class="how-we-do-it-card" id="reporting">
-<div class="step-number">4</div> <!-- Step number -->
+
 <h3>Reporting</h3>
 Individual Case Safety Reports (ICSR), Aggregate Reporting (PSUR, DSUR, SUSAR).
 </div>
 
 <!-- Committees & Governance Card -->
 <div class="how-we-do-it-card" id="committees-governance">
-<div class="step-number">5</div> <!-- Step number -->
+
 <h3>Committees & Governance</h3>
 Establish and manage independent safety review committees, Create governance structure for reviewing safety signals.
 </div>
 
 <!-- SOPs and Inspection Readiness Card -->
 <div class="how-we-do-it-card" id="sops-readiness">
-<div class="step-number">6</div> <!-- Step number -->
+
 <h3>SOPs and Inspection Readiness</h3>
 Governance, Communication, Reporting, Review.
 </div>
 
 <!-- Vendor Management Card -->
 <div class="how-we-do-it-card" id="vendor-management">
-<div class="step-number">7</div> <!-- Step number -->
+
 <h3>Vendor Management</h3>
 Budgeting, Onboarding, Governance, KPI Management, Quality Assurance/Quality Control (QA/QC).
 </div>
 
 <!-- Databases Card -->
 <div class="how-we-do-it-card" id="databases">
-<div class="step-number">8</div> <!-- Step number -->
+
 <h3>Databases</h3>
 ARGUS, ARSG, Medidata Rave EDC (Electronic Data Capture), Data reconciliation, MedRA.
 </div>
