@@ -19,71 +19,58 @@ output:
 </div>
 
 <!-- About Section -->
-<div class="card anchor-offset" id="about"> <!-- Added anchor-offset class -->
+<div class="card anchor-offset" id="about">
 <h2 class="section-header">About</h2>
-
-<img src="pics/vera_headshot.png" alt="Vera Headshot" style="float: left; margin-right: 15px; width: 150px; height: auto;">
-Vera has over 20 years experience in pharmacovigilance and drug safety. She has worked in large multinational companies and start-up biotech companies with “IND to NDA” experience across most therapeutic areas and modalities. Her expertise ranges from pharmacovigilance operations to signal detection. She has created systems and processes to ensure inspection readiness and regulatory compliance. Her motto is: “ensuring drug safety is not a choice but a philosophy“.
-
+<img src="pics/vera_pic.png" alt="Vera Headshot" class="rounded-image" style="float: left; margin-right: 15px; width: 150px; height: auto;">
+<div style="font-size: 1.5em;"> <!-- Increased font size -->
+  Vera has over 20 years experience in pharmacovigilance and drug safety. She has worked in large multinational companies and start-up biotech companies with “IND to NDA” experience across most therapeutic areas and modalities. Her expertise ranges from pharmacovigilance operations to risk management activities. She has created systems and processes to ensure inspection readiness and regulatory compliance. Her motto is: “ensuring drug safety is not a choice but a philosophy“.
+</div>
 <div style="clear: both;"></div>
 </div>
 
-<div class="card anchor-offset" id="what-we-do"> <!-- Added anchor-offset class -->
+<div class="card anchor-offset" id="what-we-do">
 
 <!-- What We Do Section -->
-<div class="how-we-do-it-label">What Vera Does</div>  <!-- Changed class to how-we-do-it-label -->
+<div class="how-we-do-it-label">What Vera Does</div>
+
 <!-- Safety Science Card -->
-<div class="how-we-do-it-card" id="safety-science"> <!-- Changed class to how-we-do-it-card -->
-
+<div class="how-we-do-it-card" id="safety-science">
 <h3>Safety Science</h3>
-Signal detection, Data analysis, Communications to stakeholders, Review and reporting.
+Safety signal management, benefit-risk evaluation and gap assessment.
 </div>
-<!-- Operations Card -->
-<div class="how-we-do-it-card" id="operations"> <!-- Changed class to how-we-do-it-card -->
 
+<!-- Operations Card -->
+<div class="how-we-do-it-card" id="operations">
 <h3>Operations</h3>
-SOPs and Inspection Readiness, Governance, Communication, etc.
+SOP development, Quality metrics, Training, Inspection readiness activities,
 </div>
-<!-- ... -->
 
 <!-- Document Management Card -->
 <div class="how-we-do-it-card" id="document-management">
-
 <h3>Document Management</h3>
-Updating relevant documents as needed (e.g., ICF, IB, DIL, Label), Creation and review of Critical Safety Documents.
+Support critical safety documents (e.g., Investigator’s Brochure, ICF, Protocols).
 </div>
 
 <!-- Reporting Card -->
 <div class="how-we-do-it-card" id="reporting">
-
 <h3>Reporting</h3>
-Individual Case Safety Reports (ICSR), Aggregate Reporting (PSUR, DSUR, SUSAR).
+Aggregate Data Reporting.
 </div>
 
 <!-- Committees & Governance Card -->
 <div class="how-we-do-it-card" id="committees-governance">
-
 <h3>Committees & Governance</h3>
-Establish and manage independent safety review committees, Create governance structure for reviewing safety signals.
-</div>
-
-<!-- SOPs and Inspection Readiness Card -->
-<div class="how-we-do-it-card" id="sops-readiness">
-
-<h3>SOPs and Inspection Readiness</h3>
-Governance, Communication, Reporting, Review.
+Establish and manage independent safety review committees, set up safety governance process.
 </div>
 
 <!-- Vendor Management Card -->
 <div class="how-we-do-it-card" id="vendor-management">
-
 <h3>Vendor Management</h3>
 Budgeting, Onboarding, Governance, KPI Management, Quality Assurance/Quality Control (QA/QC).
 </div>
 
 <!-- Databases Card -->
 <div class="how-we-do-it-card" id="databases">
-
 <h3>Databases</h3>
 ARGUS, ARSG, Medidata Rave EDC (Electronic Data Capture), Data reconciliation, MedRA.
 </div>
@@ -91,35 +78,31 @@ ARGUS, ARSG, Medidata Rave EDC (Electronic Data Capture), Data reconciliation, M
 </div>
 
 <!-- Who We Support Section -->
-<div class="card anchor-offset" id="who-we-support"> <!-- Added anchor-offset class -->
-
+<div class="card anchor-offset" id="who-we-support">
 <h2 class="section-header">Who We Support</h2>
-
 - Start-up companies that require PV support to be compliant
 - Your Safety/PV Department as you grow
 - Clinical stage/premarketing stage companies
 - Supporting with PV needs and establishing systems, processes for inspection readiness
 - Established companies with marketed products: Providing ad-hoc resources and support
-
 </div>
 
 <!-- How We Do It Section -->
 <div class="card how-we-do-it-container">
 <h2 class="section-header">How We Do It?</h2>
-<div class="how-we-do-it-card" id="step-1"> <!-- Added id -->
-<div class="step-number">1</div> <!-- Step number -->
+<div class="how-we-do-it-card" id="step-1">
+<div class="step-number">1</div>
 Contact us for an initial consultation to understand your needs.
 </div>
 
-<div class="how-we-do-it-card" id="step-2"> <!-- Added id -->
-<div class="step-number">2</div> <!-- Step number -->
+<div class="how-we-do-it-card" id="step-2">
+<div class="step-number">2</div>
 Provide recommendations (build, insource, outsource).
 </div>
 
-<div class="how-we-do-it-card" id="step-3"> <!-- Added id -->
-<div class="step-number">3</div> <!-- Step number -->
+<div class="how-we-do-it-card" id="step-3">
+<div class="step-number">3</div>
 Establish systems, process and teams.
-</div>
 </div>
 </div>
 
