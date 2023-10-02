@@ -9,15 +9,6 @@ output:
       in_header: header.html
 ---
 
-<!-- Introduction Section -->
-<div class="card intro-section">
-<h1>Welcome to VeracityPV Consulting</h1>
-<hr>
-<img src="pics/intro_image.png" alt="Introduction Image" style="width: 100%; height: auto;">
-<h2>Pharmacovigilance Guaranteed!</h2>
-<p>Providing interim pharmacovigilance services to your organization: Your Safety/PV Department as you grow.</p>
-</div>
-
 <!-- About Section -->
 <div class="card anchor-offset" id="about">
 <h2 class="section-header">About</h2>
@@ -31,7 +22,7 @@ output:
 <div class="card anchor-offset" id="what-we-do">
 
 <!-- What We Do Section -->
-<div class="how-we-do-it-label">What Vera Does</div>
+<div class="how-we-do-it-label">Services</div>
 
 <!-- Safety Science Card -->
 <div class="how-we-do-it-card" id="safety-science">
@@ -88,7 +79,8 @@ ARGUS, ARSG, Medidata Rave EDC (Electronic Data Capture), Data reconciliation, M
 </div>
 
 <!-- How We Do It Section -->
-<div class="card how-we-do-it-container">
+
+<div class="card anchor-offset" id="how-we-do-it"> <!-- Added anchor-offset class -->
 <h2 class="section-header">How We Do It?</h2>
 <div class="how-we-do-it-card" id="step-1">
 <div class="step-number">1</div>
@@ -108,34 +100,23 @@ Establish systems, process and teams.
 
 <!-- Contact Us Section -->
 <div class="card anchor-offset" id="contact-us"> <!-- Added anchor-offset class -->
-
 <h2 class="section-header">Contact Us</h2>
-
 **Veracity PV Consulting**  
 5776 Lindero Canyon Road, Suite D-126  
 Westlake Village, CA 91362  
 Email: [veracitypv@gmail.com](mailto:veracitypv@gmail.com)  
 Website: [www.veracitypv.com](http://www.veracitypv.com)  
 Phone: [+1-805-338-9001](tel:+18053389001)
-
 </div>
 
 <!-- Privacy Section -->
-<div class="card">
-
+<div class="card anchor-offset" id="privacy-notice"> <!-- Added anchor-offset class -->
 <h2 class="section-header">Privacy Notice</h2>
-
 <span id="privacy-hover">Click here to read our Privacy Notice</span>
-
 <div id="privacy-content">
-
 **Privacy Notice**  
 Last updated: 01 September 2023
-
 Thank you for visiting VeracityPV.com ("we," "us," "our"). This Privacy Notice explains how we collect, use, disclose, and safeguard your information when you visit our website www.veracitypv.com (the "Website"). Please read this Privacy Notice carefully...
-
 (Include the rest of the Privacy Notice here)
-
 </div>
-
 </div>

@@ -10,6 +10,8 @@ navbar:
       href: "#what-we-do"
     - text: "Who We Support"
       href: "#who-we-support"
+    - text: "How We Do It"
+      href: "#how-we-do-it"
     - text: "Contact Us"
       href: "#contact-us"
 
