@@ -15,6 +15,7 @@ body {
 
 /* Card design */
 .card {
+    position: relative; /* Needed for absolute positioning of children */
     box-sizing: border-box;
     background-color: #ffffff;
     padding: 20px;
@@ -228,8 +229,17 @@ ul, ol {
   border-radius: 20px; /* Adjust the value to control the roundness */
 }
 
+/* Rounded image styling for about section */
 .rounded-image {
-  border-radius: 20px; /* Adjust the value to control the roundness */
+  position: absolute; /* Position the image absolutely within the card */
+  top: 0; /* Align to the top of the card */
+  bottom: 0; /* Align to the bottom of the card */
+  left: 0; /* Align to the left of the card */
+  margin-right: 15px; /* Spacing between the image and the text */
+  width: 150px; /* Set your desired width */
+  height: 100%; /* Make the image span the full card height */
+  object-fit: cover; /* This will cover the area without stretching the image */
+  border-radius: 20px; /* Keep the rounded corners */
 }
 
 .privacy-section {
@@ -288,5 +298,13 @@ ul, ol {
 .contact-content {
   text-align: center;
   /* Additional styling if needed */
+}
+
+/* About section text styling */
+.about-text {
+  font-size: 16px; /* Reduced font size for better readability */
+  line-height: 1.5; /* Standard line height for paragraph text */
+  margin-left: 165px; /* Adjust the left margin to make room for the image */
+  margin-right: 15px; /* To keep consistency with the image margin */
 }
 
