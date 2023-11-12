@@ -27,7 +27,7 @@ output:
 <!-- Safety Science Card -->
 <div class="how-we-do-it-card" id="safety-science">
 <h3>Safety Science</h3>
-Safety signal management, benefit-risk evaluation and gap assessment.
+Safety signal management, benefit-risk evaluation and gap assessment
 </div>
 
 <!-- Operations Card -->
@@ -39,31 +39,31 @@ SOP development, Quality metrics, Training, Inspection readiness activities,
 <!-- Document Management Card -->
 <div class="how-we-do-it-card" id="document-management">
 <h3>Document Management</h3>
-Support critical safety documents (e.g., Investigator’s Brochure, ICF, Protocols).
+Support critical safety documents (e.g., Investigator’s Brochure, ICF, Protocols)
 </div>
 
 <!-- Reporting Card -->
 <div class="how-we-do-it-card" id="reporting">
 <h3>Reporting</h3>
-Aggregate Data Reporting.
+Aggregate Data Reporting
 </div>
 
 <!-- Committees & Governance Card -->
 <div class="how-we-do-it-card" id="committees-governance">
 <h3>Committees & Governance</h3>
-Establish and manage independent safety review committees, set up safety governance process.
+Establish and manage independent safety review committees, and set up safety governance process
 </div>
 
 <!-- Vendor Management Card -->
 <div class="how-we-do-it-card" id="vendor-management">
 <h3>Vendor Management</h3>
-Budgeting, Onboarding, Governance, KPI Management, Quality Assurance/Quality Control (QA/QC).
+Budgeting, Onboarding, Governance, KPI Management, and Quality Assurance/Quality Control (QA/QC)
 </div>
 
 <!-- Databases Card -->
 <div class="how-we-do-it-card" id="databases">
 <h3>Databases</h3>
-ARGUS, ARSG, Medidata Rave EDC (Electronic Data Capture), Data reconciliation, MedRA.
+ARGUS, ARSG, Medidata Rave EDC (Electronic Data Capture), Data reconciliation, MedDRA and WHO DD
 </div>
 
 </div>
@@ -84,12 +84,12 @@ ARGUS, ARSG, Medidata Rave EDC (Electronic Data Capture), Data reconciliation, M
 <h2 class="section-header">How We Do It?</h2>
 <div class="how-we-do-it-card" id="step-1">
 <div class="step-number">1</div>
-Contact us for an initial consultation to understand your needs.
+Contact us for an initial consultation to understand your needs
 </div>
 
 <div class="how-we-do-it-card" id="step-2">
 <div class="step-number">2</div>
-Provide recommendations (build, insource, outsource).
+Provide recommendations (build, insource, outsource)
 </div>
 
 <div class="how-we-do-it-card" id="step-3">
@@ -106,7 +106,6 @@ Establish systems, process and teams.
 Westlake Village, CA 91362  
 Email: [veracitypv@gmail.com](mailto:veracitypv@gmail.com)  
 Website: [www.veracitypv.com](http://www.veracitypv.com)  
-Phone: [+1-805-338-9001](tel:+18053389001)
 </div>
 
 <!-- Privacy Section -->
