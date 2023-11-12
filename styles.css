@@ -308,3 +308,21 @@ ul, ol {
   margin-right: 15px; /* To keep consistency with the image margin */
 }
 
+/* Mobile portrait view */
+@media screen and (max-width: 768px) {
+  .rounded-image {
+    position: static; /* Resets the absolute positioning */
+    width: 100%; /* Makes the image full width */
+    height: auto; /* Maintains aspect ratio */
+    margin: 0 auto 15px; /* Centers the image and adds space below */
+    display: block; /* Ensures the image takes its own line */
+  }
+
+  .about-text {
+    margin-left: 0; /* Resets the left margin */
+    margin-right: 0; /* Resets the right margin */
+    font-size: smaller; /* Adjusts font size for smaller screens */
+  }
+}
+
+
