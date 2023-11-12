@@ -285,5 +285,8 @@ ul, ol {
   color: #c0392b; /* Highlights the 'WE DO NOT SELL YOUR DATA' message */
 }
 
-/* Add any additional styling as needed */
+.contact-content {
+  text-align: center;
+  /* Additional styling if needed */
+}
 

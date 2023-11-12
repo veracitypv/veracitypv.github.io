@@ -99,13 +99,13 @@ Establish systems, process and teams
 </div>
 
 <!-- Contact Us Section -->
-<div class="card anchor-offset" id="contact-us"> <!-- Added anchor-offset class -->
+<div class="card anchor-offset" id="contact-us" style="text-align: center;"> <!-- Added inline CSS for text alignment -->
 <h2 class="section-header">Contact Us</h2>
-**Veracity PV Consulting**  
-5776 Lindero Canyon Road, Suite D-126  
-Westlake Village, CA 91362  
-Email: [veracitypv@gmail.com](mailto:veracitypv@gmail.com)  
-Website: [www.veracitypv.com](http://www.veracitypv.com)  
+<strong>Veracity PV Consulting</strong><br> <!-- Changed from markdown bold to HTML tag -->
+5776 Lindero Canyon Road, Suite D-126<br>
+Westlake Village, CA 91362<br>
+Email: <a href="mailto:veracitypv@gmail.com">veracitypv@gmail.com</a><br> <!-- Corrected markdown link to HTML -->
+Website: <a href="http://www.veracitypv.com">www.veracitypv.com</a><br>
 </div>
 
 <!-- Privacy Section with enhanced design -->
