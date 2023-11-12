@@ -94,7 +94,7 @@ Provide recommendations (build, insource, outsource)
 
 <div class="how-we-do-it-card" id="step-3">
 <div class="step-number">3</div>
-Establish systems, process and teams.
+Establish systems, process and teams
 </div>
 </div>
 
