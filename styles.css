@@ -232,3 +232,58 @@ ul, ol {
   border-radius: 20px; /* Adjust the value to control the roundness */
 }
 
+.privacy-section {
+  background-color: #ecf0f1; /* Softer shade for privacy section */
+  padding: 40px;
+  margin-top: 30px;
+  border-top: 2px solid #d6d6d6; /* Defines a top border for the section */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Professional font choice */
+}
+
+.section-divider {
+  display: none; /* You may choose not to display this if the border-top is sufficient */
+}
+
+.section-header {
+  font-size: 28px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.privacy-content h3 {
+  color: #3498db;
+  margin-top: 20px;
+}
+
+.privacy-content h4 {
+  color: #333333;
+  margin-top: 15px;
+}
+
+.privacy-content p, .privacy-content ul {
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.6; /* Improves readability */
+}
+
+.privacy-content ul {
+  list-style-type: none; /* Removes bullets */
+  padding-left: 0;
+}
+
+.privacy-content ul li::before {
+  content: '• '; /* Adds custom bullets */
+  color: #3498db; /* Bullet color matches the headings */
+  font-weight: bold; /* Bold bullets */
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.privacy-content em {
+  font-style: italic;
+  color: #c0392b; /* Highlights the 'WE DO NOT SELL YOUR DATA' message */
+}
+
+/* Add any additional styling as needed */
+
