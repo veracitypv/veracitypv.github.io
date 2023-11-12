@@ -1,6 +1,5 @@
 ---
-title: ""
-author: "Vera Singh RN, MPH"
+title: "VeracityPV"
 output: 
   html_document:
     theme: yeti
@@ -8,6 +7,12 @@ output:
     includes:
       in_header: header.html
 ---
+
+<style>
+.title{
+display: none;
+}
+</style>
 
 <!-- About Section -->
 <div class="card anchor-offset" id="about">
