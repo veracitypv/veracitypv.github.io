@@ -304,7 +304,7 @@ ul, ol {
 .about-text {
   font-size: 16px; /* Reduced font size for better readability */
   line-height: 1.5; /* Standard line height for paragraph text */
-  margin-left: 165px; /* Adjust the left margin to make room for the image */
+  margin-left: 15px; /* Adjust the left margin to make room for the image */
   margin-right: 15px; /* To keep consistency with the image margin */
 }
 
@@ -323,6 +323,33 @@ ul, ol {
     margin-right: 0; /* Resets the right margin */
     font-size: smaller; /* Adjusts font size for smaller screens */
   }
+}
+
+
+
+/* Initial hidden state of the privacy notice content */
+.privacy-content {
+    display: none;
+    /* other existing styles */
+}
+
+/* Hover effect to display the content */
+.privacy-section:hover .privacy-content {
+    display: block;
+}
+
+
+.privacy-section {
+    cursor: pointer;
+    /* other existing styles */
+}
+
+.privacy-section::before {
+    content: "Hover to view our Privacy Notice";
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #007bff; /* or any color that suits your design */
 }
 
 

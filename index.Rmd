@@ -17,7 +17,6 @@ display: none;
 <!-- About Section -->
 <div class="card anchor-offset" id="about">
 <h2 class="section-header">About</h2>
-<img src="pics/vera_pic.png" alt="Vera Headshot" class="rounded-image" style="float: left; margin-right: 15px;">
 <div class="about-text"> <!-- Updated class name -->
 Vera has over 20 years of pharmacovigilance and drug safety experience. She has worked in large multinational companies and biotech start-ups with “IND to NDA” experience across most therapeutic areas and modalities. Her expertise lies in pharmacovigilance and risk management. She has created robust systems to ensure inspection readiness and regulatory compliance. Her motto is: “ensuring drug safety is not a choice but a philosophy“.  </div>
 <div style="clear: both;"></div>
@@ -105,6 +104,7 @@ Establish systems, process and teams
 <!-- Contact Us Section -->
 <div class="card anchor-offset" id="contact-us" style="text-align: center;"> <!-- Added inline CSS for text alignment -->
 <h2 class="section-header">Contact Us</h2>
+<img src="pics/vera_pic.png" alt="Vera Headshot" class="rounded-image" style="float: left; margin-right: 15px;">
 <strong>VeracityPV Consulting</strong><br> <!-- Changed from markdown bold to HTML tag -->
 5776 Lindero Canyon Road, Suite D-126<br>
 Westlake Village, CA 91362<br>
