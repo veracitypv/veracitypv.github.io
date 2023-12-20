@@ -82,7 +82,6 @@ ARGUS, ARSG, Medidata Rave EDC (Electronic Data Capture), Data reconciliation, M
 </div>
 
 <!-- How We Do It Section -->
-
 <div class="card anchor-offset" id="how-we-do-it"> <!-- Added anchor-offset class -->
 <h2 class="section-header">How We Do It?</h2>
 <div class="how-we-do-it-card" id="step-1">

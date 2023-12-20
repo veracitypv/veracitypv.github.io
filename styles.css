@@ -1,6 +1,6 @@
 /* Gradient background for the entire page */
 body {
-    background: linear-gradient(45deg, #f5f7fa, #c3cfe2);
+    background: #a9a9a9;
     font-family: 'Arial', sans-serif;
 }
 
@@ -17,7 +17,7 @@ body {
 .card {
     position: relative; /* Needed for absolute positioning of children */
     box-sizing: border-box;
-    background-color: #ffffff;
+    background-color: #c3cfe2;
     padding: 20px;
     margin: 20px 0 40px 0;
     border-radius: 10px;
@@ -302,10 +302,19 @@ ul, ol {
 
 /* About section text styling */
 .about-text {
+  display: none;
+  transition: opacity 0.5s ease; /* Smooth transition for fading in/out */
+  opacity: 0; /* Start with text fully transparent */
   font-size: 16px; /* Reduced font size for better readability */
   line-height: 1.5; /* Standard line height for paragraph text */
   margin-left: 15px; /* Adjust the left margin to make room for the image */
   margin-right: 15px; /* To keep consistency with the image margin */
+}
+
+/* Hover effect on the card to display the about text */
+#about:hover .about-text {
+  display: block;
+  opacity: 1; /* Fully visible when hovered */
 }
 
 /* Mobile portrait view */
@@ -325,19 +334,25 @@ ul, ol {
   }
 }
 
+/* Transition for fading the About title */
+#about .section-header {
+    transition: opacity 0.5s ease;
+}
 
+/* When the card is hovered, fade the About title */
+#about:hover .section-header {
+    opacity: 0.3; /* Adjust opacity to desired fading level */
+}
 
 /* Initial hidden state of the privacy notice content */
 .privacy-content {
     display: none;
-    /* other existing styles */
 }
 
 /* Hover effect to display the content */
 .privacy-section:hover .privacy-content {
     display: block;
 }
-
 
 .privacy-section {
     cursor: pointer;
